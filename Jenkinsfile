@@ -1,8 +1,5 @@
 node {
     def app
-    agent {
-        dockerfile true
-    }
     stage('Clone repository') {
         /* Cloning the Repository to our Workspace */
         checkout scm
